@@ -1,17 +1,8 @@
 import { Component } from '@angular/core';
-import { Header} from '
 
 @Component({
-    selector: 'app-header',
-    // template: `<h1>lorem40</h1>`,
+  selector: 'app-header',
     templateUrl: './header.html',
-    
-    // standalone: true,
+  standalone: true,
 })
-
-    
-    
-    
-
-
 export class Header {}
