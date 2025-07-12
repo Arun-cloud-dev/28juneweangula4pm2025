@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 
 
-import { Header } from "./header"
+import { header } from "./header/header";
+import { User } from './user/user';
 
 @Component({
   selector: 'app-root',
-  imports: [Header],
+  imports: [header, User],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   protected title = 'Managementapp';
