@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 import { header } from "./header/header";
 import { User } from './user/user';
+import { DUMMY_USERS } from './dummy-users';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,6 @@ import { User } from './user/user';
   styleUrl: './app.css',
 })
 export class App {
-  protected title = 'Managementapp';
+
+  users = DUMMY_USERS;
 }
